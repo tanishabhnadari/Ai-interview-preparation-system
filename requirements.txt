@@ -1,0 +1,13 @@
+# Core dependencies for AI Interview Preparation System
+streamlit>=1.30.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+google-genai>=0.1.1
+pypdf>=3.17.0
+plotly>=5.18.0
+numpy>=1.24.0
+
+# Optional dependencies for local AI models (install if using offline STT or local embeddings)
+# faster-whisper>=0.10.0
+# sentence-transformers>=2.2.0
+# chromadb>=0.4.0

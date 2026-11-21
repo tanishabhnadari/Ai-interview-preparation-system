@@ -1,0 +1,65 @@
+[
+  {
+    "id": "q_py_01",
+    "text": "Can you explain how Python manages memory, specifically focusing on reference counting and garbage collection for cyclic references?",
+    "category": "Technical",
+    "difficulty": "Intermediate",
+    "expected_keywords": ["reference counting", "garbage collection", "cyclic reference", "gc module", "memory leak", "generations"],
+    "context_hint": "Focus on the dual mechanism: reference counting as the primary mechanism and cyclical garbage collector with 3 generations as the secondary.",
+    "role_tags": ["Python Developer", "Software Engineer", "Backend Developer", "AI Engineer", "Data Scientist"]
+  },
+  {
+    "id": "q_ml_01",
+    "text": "What is the difference between Bias and Variance in machine learning models, and how do you diagnose and mitigate high variance?",
+    "category": "Technical",
+    "difficulty": "Intermediate",
+    "expected_keywords": ["bias-variance tradeoff", "overfitting", "underfitting", "regularization", "L1 L2", "cross-validation", "dropout", "data augmentation"],
+    "context_hint": "Explain underfitting vs overfitting and practical techniques like regularization, pruning, or adding training data.",
+    "role_tags": ["AI Engineer", "Machine Learning Engineer", "Data Scientist"]
+  },
+  {
+    "id": "q_sys_01",
+    "text": "How would you design a scalable rate limiter for an API with millions of daily requests? Which algorithm and storage would you choose?",
+    "category": "System Design",
+    "difficulty": "Advanced",
+    "expected_keywords": ["token bucket", "leaky bucket", "sliding window counter", "Redis", "distributed system", "concurrency", "latency"],
+    "context_hint": "Discuss trade-offs between sliding window log vs sliding window counter, and in-memory stores like Redis clusters.",
+    "role_tags": ["Software Engineer", "Backend Developer", "System Architect"]
+  },
+  {
+    "id": "q_beh_01",
+    "text": "Tell me about a time when you faced a critical technical disagreement with a team member. How did you handle it and what was the outcome?",
+    "category": "Behavioral (STAR)",
+    "difficulty": "Intermediate",
+    "expected_keywords": ["Situation", "Task", "Action", "Result", "communication", "compromise", "data-driven", "consensus", "retrospective"],
+    "context_hint": "Structure your answer using the STAR method (Situation, Task, Action, Result). Highlight active listening and objective evaluation.",
+    "role_tags": ["All", "Software Engineer", "AI Engineer", "Data Scientist", "Manager"]
+  },
+  {
+    "id": "q_ai_02",
+    "text": "Explain the concept of Retrieval-Augmented Generation (RAG). How does it mitigate hallucinations in Large Language Models?",
+    "category": "Technical",
+    "difficulty": "Advanced",
+    "expected_keywords": ["vector embeddings", "retrieval", "vector database", "context window", "hallucination", "cosine similarity", "reranking"],
+    "context_hint": "Describe the two phases: indexing/retrieval of external domain knowledge and prompt augmentation for factual grounding.",
+    "role_tags": ["AI Engineer", "ML Engineer", "LLM Engineer", "Data Scientist"]
+  },
+  {
+    "id": "q_cod_01",
+    "text": "What are Python generators and decorators, and in what real-world backend scenarios would you use them?",
+    "category": "Coding Concepts",
+    "difficulty": "Beginner",
+    "expected_keywords": ["yield", "iterator", "memory efficiency", "wrapper", "higher-order function", "caching", "logging", "authentication"],
+    "context_hint": "Contrast generators (lazy evaluation for large streams) with normal collections, and explain decorators as function wrappers.",
+    "role_tags": ["Python Developer", "Software Engineer", "Backend Developer"]
+  },
+  {
+    "id": "q_sit_01",
+    "text": "Imagine a mission-critical production service experiences a sudden 500% spike in latency right after a release. Walk me through your troubleshooting steps.",
+    "category": "Situational",
+    "difficulty": "Advanced",
+    "expected_keywords": ["rollback", "telemetry", "metrics", "logs", "CPU/memory usage", "database bottleneck", "root cause analysis", "postmortem"],
+    "context_hint": "Prioritize immediate mitigation (e.g. rollback or traffic shedding) before deep root cause investigation.",
+    "role_tags": ["Software Engineer", "DevOps Engineer", "Site Reliability Engineer", "Backend Developer"]
+  }
+]
